@@ -1,7 +1,7 @@
-'git clone github.com/paundrapf/crawl-website'
+```git clone github.com/paundrapf/crawl-website```
+```cd crawl-website```
 
-'cd crawl-website'
+install request
+```pip install request```
 
-'pip install request'
-
-'py crawl.py'
+```py crawl.py```
