@@ -1,3 +1,4 @@
+**Installation Guide**
 To start crawling a website and using Web Archive Data Retriever, follow these simple steps:
 
 1.Clone the Repository
