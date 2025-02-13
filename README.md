@@ -25,3 +25,32 @@ Finally, run the script to start fetching data:
 ```
 py crawl.py
 ```
+======================================================================================================================================================
+
+**Panduan Instalasi**
+
+Untuk memulai crawling sebuah situs web dan menggunakan Web Archive Data Retriever, ikuti langkah-langkah sederhana berikut:
+
+1.Clone Repository
+Mulai dengan meng-clone repository ke mesin lokal Anda:
+```
+git clone github.com/paundrapf/crawl-website
+```
+
+2.Navigasi ke Direktori Proyek
+Masuk ke direktori proyek untuk menyiapkan lingkungan:
+```
+cd crawl-website
+```
+
+3.Instal Dependensi
+Instal paket Python yang diperlukan menggunakan pip:
+```
+pip install requests
+```
+
+4.Jalankan Aplikasi
+Terakhir, jalankan skrip untuk mulai mengambil data:
+```
+python crawl.py
+```
