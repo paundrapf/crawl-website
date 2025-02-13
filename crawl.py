@@ -3,16 +3,14 @@ import time
 import sys
 
 def loading_effect():
-    # Membuat efek loading dengan titik-titik yang bergerak berulang
     loading_text = "loading"
     while True:
-        for i in range(20):  # Berulang 3 kali dengan titik yang bertambah
+        for i in range(20):
             sys.stdout.write(f"\r{loading_text}{'.' * i}")
             sys.stdout.flush()
             time.sleep(1)
-        # Setelah mencapai "loading..." kembali ke "loading."
-        sys.stdout.write("\r")  # Membersihkan baris setelah loading selesai
-        break  # Keluar dari loop setelah satu putaran loading
+        sys.stdout.write("\r")
+        break
 
 def get_archive_data(domain):
     # Format URL untuk melakukan request ke web.archive.org
